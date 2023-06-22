@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10vh;
+  width: 30vw;
+  height: 70vh;
+  background-color: white;
+  border-radius: 10%;
+  position: relative;
+  overflow: hidden;
+}
+
+.heading {
+  font-family: 'Dancing Script', cursive;
+  background-image: linear-gradient(to right, #5cdfda, #2e3693);
+  font-size: 40px;
+  margin-left: 10vw;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.modal-title {
+  margin-top: 0;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.input,
+.textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+.createpost-button{
+  margin-left: 12vw;
+  border: none;
+  outline: none;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+
+.post-container {
+  margin-left: 1vw;
+  width: 27vw;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+}
+
+.post-heading {
+  color: black;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.post-title {
+  margin: 0;
+  color: black;
+  font-size: 24px;
+}
+
+.post-content {
+  margin: 0;
+}
+
+.post-image {
+  max-width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.post-actions p {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.post-actions p:hover {
+  color: blue;
+}
+
+.send-button {
+  padding: 8px 16px;
+  background-color: inherit;
+  font-size: 20px;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.post-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.post-comments,
+.post-likes,
+.post-shares {
+  margin: 0;
+}
+
+.post-likes {
+  color: black;
+}
+
+.post-comments {
+  color: black;
+}
+
+.post-shares {
+  color: black;
+}
+
+.post-actions p svg {
+  margin-right: 4px;
+}
+
+.bottom-bar {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  padding: 16px;
+  background-color: #f0f0f0;
+};
+
+.no-posts {
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #b42424;
+  font-style: italic;
+};
+
+.parent-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
